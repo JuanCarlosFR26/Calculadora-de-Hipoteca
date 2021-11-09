@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcula tu hipoteca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="menu">
+        <h1>Calculadora de Hipotecas</h1>
+        <img class="img-nav" src="img/two-confident-business-man-shaking-hands-during-meeting-in-the-office-success-dealing-greeting-and-partner-concept.jpg" alt="deal">
+    </nav>
+    <div id="calculadora">
+        <h3>Calcula tu hipoteca con nuestro sistema</h3>
+        <p>Introduce la cantidad: <input id= "cantidad" type="number" name="cantidad"> €</p>
+        <p>Selecciona el número de cuotas: <input id="cuotas" type="number" name="cuotas"></p>
+        <p>Escoge el tipo de interés: <input id="interes" type="number" name="interes"> %</p>
+        <button id="btn" class="btn btn-calculadora" onclick="calcular()">Calcular</button>
+    </div>
+    <div class="calculo">
+        <p id="p-calculo">El total es de: <span id="total">
+
+        </span> €</p>
+    </div>
+
+    <script src="code.js"></script>
+
+    
+</body>
+</html>
